@@ -18,3 +18,8 @@ const result = x+y;
 return result;
 }
 console.log(add(3,2));
+
+function show (){
+    console.log('Hellow World');
+}
+show()
