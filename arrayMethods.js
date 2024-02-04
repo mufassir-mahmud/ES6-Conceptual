@@ -27,3 +27,14 @@
 
 const arr = [11,22,33,44,55];
 arr.map(item => console.log(item))
+
+// const result = arr.forEach((item) => item);
+// console.log(result);
+const result = arr.map((item) => item*2);
+console.log(result);
+
+const fruits = ['mango','bango', 'cango', 'tango'];
+fruits.forEach((item) => console.log(item))
+fruits.forEach((item, index, arr) => console.log(item, index,arr))
+
+// forEach = element, index number, main array
