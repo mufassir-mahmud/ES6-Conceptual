@@ -38,7 +38,7 @@
 // fruits.forEach((item, index, arr) => console.log(item, index,arr))
 
 // forEach = element, index number, main array
-const fruits = ['mango','bango', 'cango', 'tango'];
+// const fruits = ['mango','bango', 'cango', 'tango'];
 
 // const find = (fruits) =>{
 //     for(let fruit of fruits){
@@ -72,18 +72,24 @@ const fruits = ['mango','bango', 'cango', 'tango'];
 
 // console.log(filter(numbers));
 
-const numbers = [11,33,55,77];
-const filter = numbers =>{
-    const result = [];
-    for( let number of numbers){
-        if(number % 2 !== 0){
-            result.push(number)
-        }
-    }
-    return result
-}
-const x = filter(numbers);
-console.log(x);
+// const numbers = [11,33,55,77];
+// const filter = numbers =>{
+//     const result = [];
+//     for( let number of numbers){
+//         if(number % 2 !== 0){
+//             result.push(number)
+//         }
+//     }
+//     return result
+// }
+// const x = filter(numbers);
+// console.log(x);
 
-const y = numbers.filter((number) => number%2 !== 0);
-console.log(y);
+// const y = numbers.filter((number) => number%2 !== 0);
+// console.log(y);
+// Reduce:
+
+const arr = [1,2,3,4,5];
+
+const sum = arr.reduce((prev, curr) => prev + curr, 0 ) 
+console.log(sum);
