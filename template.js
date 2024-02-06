@@ -9,7 +9,7 @@ amr boyos ${age}
 amr bari ${address}
 amr bow er name ${bowerName}
 amr sosur bari ${sosurBari}
-amr Special ${numbers.map(number => number)}
+amr Special ${numbers.map(number => number) }
 
 
 `;
