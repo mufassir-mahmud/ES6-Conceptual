@@ -89,7 +89,13 @@
 // console.log(y);
 // Reduce:
 
-const arr = [1,2,3,4,5];
+// const arr = [1,2,3,4,5];
 
-const sum = arr.reduce((prev, curr) => prev + curr, 0 ) 
+// const sum = arr.reduce((prev, curr) => prev * curr,2 ) 
+// console.log(sum);
+
+const arr = [1,2,3,4,5,6,7,8,9,10];
+const initial = 50;
+
+const sum = arr.reduce((prev,curr) => prev+curr,initial);
 console.log(sum);
