@@ -25,6 +25,11 @@ const complexObject = {
     }
 }
 
+console.log('Name:', complexObject.name);
+console.log('Last Name: ', complexObject.info.author.lastName);
+console.log('Data Values ', complexObject.data.values[2]);
+console.log('Max Item', complexObject.data.settings.maxItems);
+
 
 
 
