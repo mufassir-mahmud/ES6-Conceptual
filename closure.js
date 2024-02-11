@@ -7,8 +7,12 @@ const outer = () =>{
 }
 
 const x = outer();
+const x2 = outer()
 x()
 x()
 x()
 x()
 x()
+x2()
+x()
+x2()
