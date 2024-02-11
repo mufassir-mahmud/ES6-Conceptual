@@ -1,8 +1,9 @@
-const function1 = (callback) => {
-    console.log(typeof callback);
+const function1 = (a,b,callback) => {
+    
+    callback(a,b)
 }
-const callback = () =>{
-    console.log('I am call back Function');
+const callback = (x,y) =>{
+   console.log('sum = : ', x+y);
 }
 
-function1(callback)
+function1(10,5,callback)
